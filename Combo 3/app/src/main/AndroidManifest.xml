@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.leticia.combo3">
+
+    <uses-permission android:name="android.permission.INTERNET" /> //acessa o estado da rede
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/icone"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+
+        <activity android:name=".app.SphashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app.HomeActivity" />
+        <activity android:name=".app.MesaActivity" />
+        <activity android:name=".app.LoginActivity" />
+        <activity android:name=".app.NovoPedidoActivity" />
+        <activity android:name=".app.CardapioPizzaActivity" />
+        <activity android:name=".app.CardapioBebidaActivity" />
+        <activity android:name=".app.CardapioSobremesaActivity" />
+        <activity android:name=".app.ListacardapiopizzaActivity" />
+        <activity android:name=".app.ListacardapiobebidaActivity" />
+        <activity android:name=".app.ListacardapiosobremesaActivity" />
+        <activity android:name=".app.ComplementospizzaActivity" />
+        <activity android:name=".app.ComplementossobremesaActivity" />
+        <activity android:name=".app.ComplementosBebidaActivity">
+
+            <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+            -->
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+        </activity>
+        <activity android:name=".app.HistoricoConsumoActivity"></activity>
+    </application>
+
+</manifest>

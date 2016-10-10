@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Combo 3</string>
+
+    //Spinner da mesa
+    <string-array name="mesa">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+
+    //Spinner da borda
+    <string-array name="borda">
+
+        <item>Sem</item>
+        <item>Catupiry</item>
+        <item>Chedar</item>
+        <item>Requeijão</item>
+        <item>4 Queijos</item>
+        <item>Mussarela com Presunto</item>
+    </string-array>
+
+    //Spinner do tamanho
+    <string-array name="tamanho">
+        <item>Grande  - 12 </item>
+        <item>Familia - 8 </item>
+        <item>Broto   - 4 </item>
+    </string-array>
+
+    //Menu novo pedido
+    <string name="lbl_salvar">Salvar</string>
+    <string name="lbl_alterar">Alterar</string>
+    <string name="lbl_excluir">Salvar</string>
+
+</resources>
